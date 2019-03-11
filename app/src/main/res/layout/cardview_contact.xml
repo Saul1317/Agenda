@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview_contacto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:alpha="0.5"
+    app:cardCornerRadius="10dp">
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/edit_style"
+        app:columnCount="2"
+        app:useDefaultMargins="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/man_user"
+            android:contentDescription="@string/nombre"
+            app:layout_columnSpan="1"/>
+
+        <TextView android:id="@+id/cardview_nombre_contacto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre"
+            android:textSize="@dimen/txt_title"
+            android:textColor="@color/primary_light"
+            android:textStyle="bold"
+            app:layout_columnSpan="1"
+            app:layout_gravity="center_vertical"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/old_typical_phone"
+            android:contentDescription="@string/contacto"
+            app:layout_columnSpan="1"
+            app:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/cardview_phone_contacto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone"
+            android:textSize="@dimen/txt_title"
+            android:textColor="@color/primary_light"
+            android:textStyle="bold"
+            app:layout_columnSpan="1"
+            app:layout_gravity="center_vertical"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cake"
+            android:contentDescription="@string/contacto"
+            app:layout_columnSpan="1"/>
+
+        <TextView
+            android:id="@+id/cardview_birthday_contacto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/birthday"
+            android:textSize="@dimen/txt_title"
+            android:textColor="@color/primary_light"
+            android:textStyle="bold"
+            app:layout_columnSpan="1"
+            app:layout_gravity="center_vertical"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/clipboard_with_pencil_"
+            android:contentDescription="@string/contacto"
+            app:layout_columnSpan="1"/>
+
+        <TextView
+            android:id="@+id/cardview_note_contacto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/note"
+            android:textSize="@dimen/txt_title"
+            android:textColor="@color/primary_light"
+            android:textStyle="bold"
+            app:layout_columnSpan="1"
+            app:layout_gravity="center_vertical"/>
+
+    </android.support.v7.widget.GridLayout>
+
+</android.support.v7.widget.CardView>
